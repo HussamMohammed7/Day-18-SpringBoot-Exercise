@@ -19,9 +19,9 @@ public class Controller {
 
 
 
-    @GetMapping("/name")
-    public String name() {
-        return "My age is Hussam";
+    @GetMapping("/age")
+    public String age() {
+        return "My age is 24";
     }
 
     @GetMapping("/check/status")
